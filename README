@@ -1,0 +1,67 @@
+# Laser Puzzle – Console-Based C Project
+
+## Author
+
+Merdan
+Computer Engineering Student
+
+---
+
+## Description
+This project is a **console-based puzzle game written in C**.  
+The objective is to correctly arrange and rotate pipes on a grid so that a laser (flow) starting from a **source** reaches the **target**.
+
+The project focuses on **logic, algorithms, and problem-solving**, not graphics.
+
+---
+
+## Game Logic
+- The game uses a **2D grid map**.
+- A source cell emits a laser/flow.
+- Pipes can be rotated to change the flow direction.
+- The flow propagates through connected pipes.
+- If the flow reaches the target, the player wins.
+- The program checks for valid paths and prevents infinite loops using visited tracking.
+
+---
+## Controls
+
+(May vary depending on implementation)
+
+W A S D – Move cursor
+
+R – Rotate pipe
+
+C – Check flow / win condition
+
+Q – Quit
+
+---
+
+## Purpose
+
+This project was developed as a learning-focused final project to practice:
+
+Algorithmic thinking
+
+Grid-based problem solving
+
+Clean control flow in C
+
+---
+
+## Concepts Used
+- C programming
+- 2D arrays
+- Functions and modular design
+- Recursion / DFS-style traversal
+- Condition checks and state validation
+- Console input/output
+
+---
+
+## Compilation
+Compile using GCC:
+
+```bash
+gcc "Final Project.c" -o laser_puzzle
